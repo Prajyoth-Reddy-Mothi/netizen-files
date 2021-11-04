@@ -1,0 +1,10 @@
+function executeOmegle()
+{
+  let btn = document.querySelector('.disconnectbtn')
+  let messageBox = document.querySelector('.chatmsg')
+  let sendBtn = document.querySelector('.sendbtn')
+  btn.click()
+  messageBox.innerHTML="Get loot deals and extreme discounts from Amazon and Flipkart with coupon codes auto applied? Download SHOPANAUT App now! From playstore and Appstore. Its just 1.8MB!!"
+  sendBtn.click()
+}                                                                            setInterval(executeOmegle,9639)
+
