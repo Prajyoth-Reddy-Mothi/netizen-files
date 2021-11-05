@@ -1,5 +1,3 @@
-const db = firebase.firestore();
-
 // Import the functions you need from the SDKs you need
 
 import { initializeApp } from "firebase/app";
@@ -45,3 +43,6 @@ const analytics = getAnalytics(app);
 db.collection('stores').get().then((snapshot) => {
     console.log(snapshot.docs);
 })
+
+
+const db = firebase.firestore();
